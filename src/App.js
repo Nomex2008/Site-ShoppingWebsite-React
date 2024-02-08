@@ -1,7 +1,9 @@
+import Header from "./components/header/header.jsx";
+
 function App() {
   return (
     <div className="App">
-        <h1>Hello react!</h1>
+        <Header/>
     </div>
   );
 }
