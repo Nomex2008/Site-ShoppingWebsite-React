@@ -11,6 +11,7 @@
 }
 .promo__text {
     max-width: 600px;
+    margin-bottom: 50px;
 }
 .promo__title {
     font-weight: 900;
@@ -47,6 +48,12 @@
 
     padding: 19px 40px;
     display: inline-block;
+
+    transition: all .3s ease;
+}
+.promo__btn:hover {
+    color: #000;
+    background-color: #f4f6f5;
 }
 .promo__btn-wrapper a{
     font-weight: 500;
@@ -56,4 +63,27 @@
 }
 .promo__img {
     max-width: 890px;
+}
+ 
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+.highlight:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -20px;
+    right: -160px;
+    transform: rotate(-2deg);
+    background-color: #fff;
+}
+.highlight--yellow:before {
+    background-color: #ebd96b;
+}
+.highlight__span {
+    position: relative;
+    z-index: 2;
 }

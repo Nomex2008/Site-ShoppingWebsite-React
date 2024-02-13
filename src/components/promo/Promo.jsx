@@ -10,9 +10,13 @@ const Promo = () => {
                     <div className="promo__text">
                         
                         <div className="promo__title">
-                            LET’S
+                            <span className='highlight'>
+                                <span className='highlight__span'>LET’S</span>
+                            </span>
                             EXPLORE
-                            UNIQUE
+                            <span className='highlight highlight--yellow'>
+                                <span className='highlight__span'>UNIQUE</span>
+                            </span>
                             CLOTHES.
                         </div>
 
