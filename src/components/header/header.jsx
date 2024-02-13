@@ -14,13 +14,13 @@ function Header ()  {
 
                     <nav className="header__nav">
                         <ul>
-                            <li><a href="#!">CATALOGUE</a></li>
-                            <li><a href="#!">FASHION</a></li>
-                            <li><a href="#!">FAVOURITE</a></li>
-                            <li><a href="#!">LIFESTYLE</a></li>
+                            <li><a className='header__link' href="#!">CATALOGUE</a></li>
+                            <li><a className='header__link' href="#!">FASHION</a></li>
+                            <li><a className='header__link' href="#!">FAVOURITE</a></li>
+                            <li><a className='header__link' href="#!">LIFESTYLE</a></li>
                             <li><a className='header__nav-btn' href="#!">SIGN UP</a></li>
                         </ul>
-                    </nav>
+                </nav>
 
                 </div>
             </div>

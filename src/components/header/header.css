@@ -30,6 +30,9 @@
     letter-spacing: 0.01em;
     color: #000;
 }
+.header__link:hover  {
+    text-decoration: underline;
+}
 .header__nav-btn, a.header__nav-btn {
     background-color: #000;
     color: #fff;
