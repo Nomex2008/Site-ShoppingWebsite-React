@@ -8,6 +8,7 @@
     padding-left: 120px;
     border-radius: 59px;
     background-color: #f4f6f5;
+    overflow: hidden;
 }
 .promo__text {
     max-width: 600px;
@@ -63,6 +64,7 @@
 }
 .promo__img {
     max-width: 890px;
+    margin-top: auto;
 }
  
 .highlight {
