@@ -1,3 +1,4 @@
+import Card from '../card/Card';
 import './arrivels.css'
 
 const Arrivels = () => {
@@ -6,15 +7,15 @@ const Arrivels = () => {
             <div className="container">
 
                 <div className="arrivels__header">
-                    <h2 className="arrivels__title">
-                        NEW ARRIVALS
+                    <h2 className="title-2">
+                        <span className='arrivels__title'>NEW ARRIVALS</span>
                     </h2>
                 </div>
 
                 <div className="arrivels__cards">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 </div>
 
             </div>

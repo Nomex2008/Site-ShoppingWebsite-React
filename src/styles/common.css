@@ -6,3 +6,26 @@ body {
     margin: 0 auto;
     padding: 0 30px;
 }
+.title-2 {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 104%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000;
+
+    margin-bottom: 114px;
+    position: relative;
+}
+.title-2:after {
+    content: "";
+    position: absolute;
+    bottom: -1%;
+    right: 0;
+    width: 190px;
+    height: 32px;
+    
+    background-image: url('./../../src/img/icons/decor-yellow.svg');
+    background-position: no-repeat;
+}
