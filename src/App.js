@@ -1,3 +1,4 @@
+import Arrivels from "./components/arrivals/Arrivels.jsx";
 import Brands from "./components/brands/Brands.jsx";
 import Header from "./components/header/header.jsx";
 import Promo from "./components/promo/Promo.jsx";
@@ -8,6 +9,7 @@ function App() {
         <Header/>
         <Promo/>
         <Brands/>
+        <Arrivels/>
     </div>
   );
 }
