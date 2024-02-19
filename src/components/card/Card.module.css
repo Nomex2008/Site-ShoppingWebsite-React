@@ -1,6 +1,45 @@
+/*
 .card {
-    background-color: #fff;
+}
+*/
+.card__link:hover  .card__img{
+    opacity: .8;
+}
+.card__link:hover .card__icon {
+    transform: rotate(-90deg);
 }
 .card__img {
+    margin-bottom: 28px;
+    border-radius: 20px;
 
+    transition: opacity .3s ease;
+}
+.card__body {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+}
+/*
+.card__text {
+
+}
+*/
+.card__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 156%;
+    letter-spacing: -0.04em;
+    color: #000;
+}
+.card__muted {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 208%;
+    letter-spacing: -0.04em;
+    color: #7f7f7f;
+}
+.card__icon {
+    transition: all .3s ease;
+    position: relative;
 }
