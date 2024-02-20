@@ -1,0 +1,72 @@
+.sale {
+    background: linear-gradient(360deg, #e0c340 0%, #dfc23e 3.93%, #e1c441 7.23%, #e3c743 10.23%, #e4c542 13.14%, #e6c744 16.22%, #e7c845 19.84%, #e5c643 24.38%, #e6c945 31%, #e3c743 37.19%, #e9ca48 43.33%, #edce49 50.36%, #f0d44c 56.57%, #f4d84f 62.71%, #f6da52 67.12%, #f7db53 73.77%, #f9dd55 79.08%, #f9df56 85.64%, #fae157 93.5%, #f9df56 100%);
+
+    display: flex;
+}
+.sale__photo {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin-top: auto;
+}
+.sale__img {
+
+}
+.sale__content {
+    margin-top: 128px;
+    margin-left: 62px;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    max-width:684px;
+}
+.sale__title {
+    font-weight: 900;
+    font-size: 111px;
+    line-height: 123%;
+    color: #000;
+    margin-bottom: 34px;
+}
+.sale__title span{
+    position: relative;
+    display: inline-block;
+}
+.sale__text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: -0.02em;
+    color: #231300;
+    margin-bottom: 40px;
+}
+.sale__subTitle {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 145%;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin-bottom: 50px;
+}
+.sale__subTitle  span {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.sale__btn {
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    transition: all .3s ease;
+
+    background: #000;
+    padding: 26px 50px;
+    display: inline-block;
+
+    margin-bottom: 20px;
+}
+.sale__btn:hover {
+    color: #fff;
+    text-decoration: underline;
+    background: none;
+}
