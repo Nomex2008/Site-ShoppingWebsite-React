@@ -5,6 +5,7 @@ import Favourite from "./components/favourite/Favourite.jsx";
 import Header from "./components/header/header.jsx";
 import Promo from "./components/promo/Promo.jsx";
 import Sale from "./components/sale/Sale.jsx";
+import Send from "./components/send/Send.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Sale/>
         <Favourite/>
         <Download/>
+        <Send/>
     </div>
   );
 }

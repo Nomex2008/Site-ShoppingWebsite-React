@@ -1,0 +1,14 @@
+.send {
+    background: #e5c643;
+    padding-top: 141px;
+    padding-bottom: 156px;
+}
+.send__container {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
