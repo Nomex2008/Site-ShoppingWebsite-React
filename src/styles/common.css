@@ -29,3 +29,7 @@ body {
     background-image: url('./../../src/img/icons/decor-yellow.svg');
     background-position: no-repeat;
 }
+.title-2 span {
+    position: relative;
+    z-index: 2;
+}

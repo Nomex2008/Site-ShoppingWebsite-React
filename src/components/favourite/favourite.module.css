@@ -1,0 +1,9 @@
+.favourite {
+    margin-top: 190px;
+    margin-bottom: 220px;
+}
+.favourite__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 45px;
+}

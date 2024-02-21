@@ -1,5 +1,7 @@
 import Arrivels from "./components/arrivals/Arrivels.jsx";
 import Brands from "./components/brands/Brands.jsx";
+import Download from "./components/download/Download.jsx";
+import Favourite from "./components/favourite/Favourite.jsx";
 import Header from "./components/header/header.jsx";
 import Promo from "./components/promo/Promo.jsx";
 import Sale from "./components/sale/Sale.jsx";
@@ -12,6 +14,8 @@ function App() {
         <Brands/>
         <Arrivels/>
         <Sale/>
+        <Favourite/>
+        <Download/>
     </div>
   );
 }
