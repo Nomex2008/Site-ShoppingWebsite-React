@@ -7,30 +7,34 @@ const Download = () => {
     return ( 
         <div className={styles.download}>
             <div className={styles.download__container}>
-                <div className="download__body">
+                <div className={styles.download__body}>
 
-                    <div className="download__comtent">
+                    <div className={styles.download__comtent}>
 
-                        <h3 className="download__title">
+                        <h3 className={styles.download__title}>
                             DOWNLOAD APP &
                             GET THE VOUCHER!
                         </h3>
 
-                        <div className="download__title">
+                        <div className={styles.download__text}>
                             <p>
                                 Get 30% off for first transaction using
                                 Rondovision mobile app for now.
                             </p>
                         </div>
 
-                        <div className="download__icon">
-                            <img src={appStore} alt="" />
-                            <img src={googlePlay} alt="" />
+                        <div className={styles.download__icon}>
+                            <a href="#!" className={styles.download__link}>
+                                <img src={appStore} alt="" />
+                            </a>
+                            <a href="#!" className={styles.download__link}>
+                                <img src={googlePlay} alt="" />
+                            </a>
                         </div>
 
                     </div>
 
-                    <div className="download__img">
+                    <div className={styles.download__img}>
                         <img src={downloadImg} alt="" />
                     </div>
 
